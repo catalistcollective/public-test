@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T19:55:55.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="uxQZuuI8xeyy_BRk8QtN" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T19:00:57.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="edQI8lbJsN81yugTp_G_" version="20.0.3" type="github">
   <diagram id="9TZBVGrTHEIjq8n9u4WU" name="Page-1">
-    <mxGraphModel dx="1580" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3085" dy="3083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,9 +45,6 @@
         <mxCell id="HXzdCxORST3lZqe2nysO-9" value="logged in and sent to the onboarding page&lt;br&gt;Statuses: +&lt;font color=&quot;#3333ff&quot;&gt;logged-in&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HXzdCxORST3lZqe2nysO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HXzdCxORST3lZqe2nysO-13" target="HXzdCxORST3lZqe2nysO-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="HXzdCxORST3lZqe2nysO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HXzdCxORST3lZqe2nysO-13" target="HXzdCxORST3lZqe2nysO-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -59,7 +56,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HXzdCxORST3lZqe2nysO-13" value="Onboardind Page&lt;br&gt;&lt;br&gt;" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HXzdCxORST3lZqe2nysO-13" value="Onboarding Page&lt;br&gt;On load add is_email_confirmed if doesn&#39;t exist" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="450" width="150" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="HXzdCxORST3lZqe2nysO-15" target="Ku4nTDtjbL8bSQjuvAMc-3">
@@ -71,14 +68,8 @@
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="HXzdCxORST3lZqe2nysO-16" target="Ku4nTDtjbL8bSQjuvAMc-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HXzdCxORST3lZqe2nysO-16" value="if &quot;signed-up&quot; and no &quot;welcome&quot; and &quot;password-set&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="HXzdCxORST3lZqe2nysO-16" value="if beta signup or &quot;signed-up&quot; &lt;br&gt;&lt;br&gt;and no &quot;welcome&quot; &lt;br&gt;&lt;br&gt;and &quot;password-set&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="508.75" y="551.25" width="97.5" height="97.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="HXzdCxORST3lZqe2nysO-17" target="HXzdCxORST3lZqe2nysO-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HXzdCxORST3lZqe2nysO-17" value="if Statuses contains &lt;font color=&quot;#33ff33&quot;&gt;password-set,&lt;/font&gt; is_email_confirmed=yes" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="330" y="620" width="150" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="HXzdCxORST3lZqe2nysO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HXzdCxORST3lZqe2nysO-25" target="HXzdCxORST3lZqe2nysO-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -148,7 +139,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HXzdCxORST3lZqe2nysO-37" value="Add &lt;font color=&quot;#00cc66&quot;&gt;password-set&lt;/font&gt; if it doesn&#39;t exist and &lt;br&gt;set is_email_confirmed=yes" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="235" y="792.5" width="155" height="117.5" as="geometry" />
+          <mxGeometry x="235" y="792.5" width="185" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="HXzdCxORST3lZqe2nysO-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HXzdCxORST3lZqe2nysO-39" target="HXzdCxORST3lZqe2nysO-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -170,8 +161,30 @@
         <mxCell id="HXzdCxORST3lZqe2nysO-41" value="go home" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="832.5" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-1" target="HXzdCxORST3lZqe2nysO-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="940" />
+              <mxPoint x="55" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-1" value="if expired&lt;br&gt;resend email&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fontColor=default;labelBackgroundColor=#FF5959;" vertex="1" parent="1">
           <mxGeometry x="75" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-3" target="Ku4nTDtjbL8bSQjuvAMc-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-3" target="Ku4nTDtjbL8bSQjuvAMc-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="456" />
+              <mxPoint x="630" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-3" value="password reset popup" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="511.25" y="400" width="102.5" height="112.5" as="geometry" />
@@ -197,7 +210,7 @@
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-20" value="if logged in and not in group" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-14">
           <mxGeometry x="0.2063" relative="1" as="geometry">
-            <mxPoint x="37" as="offset" />
+            <mxPoint x="41" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-11" target="Ku4nTDtjbL8bSQjuvAMc-17">
@@ -238,29 +251,165 @@
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-11" value="Group Invite 2.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="-375" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-12" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-540" width="120" height="60" as="geometry" />
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-12" target="Ku4nTDtjbL8bSQjuvAMc-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-35" value="&quot;joined&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-34">
+          <mxGeometry x="-0.1909" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-12" value="join group" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="-530" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-17" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="330" y="-315" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-19" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-19" target="Ku4nTDtjbL8bSQjuvAMc-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-38" value="if password remembered" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-37">
+          <mxGeometry x="-0.6456" y="-2" relative="1" as="geometry">
+            <mxPoint x="47" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-19" target="Ku4nTDtjbL8bSQjuvAMc-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-19" value="show password fields" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="407.5" y="-390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-24" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="370" y="-460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-27" value="Variables:&lt;br&gt;&lt;br&gt;Statuses:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;invited&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;onboarded&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;welcomed&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;logged-in&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;magic-link&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;signed-up&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;beta-signup&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;invited&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;password-set&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;is_password_confirmed=yes&lt;br&gt;code=9 digit code&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="75" y="-860" width="180" height="250" as="geometry" />
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-27" value="Variables:&lt;br&gt;&lt;br&gt;Statuses:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;invited&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;onboarded&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;welcomed&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;logged-in&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;uses-magic-link&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;signed-up&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;beta-signup&lt;/i&gt;&lt;/li&gt;&lt;li&gt;&lt;i&gt;password-set&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;i&gt;User Statuses:&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;joined&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;is_email_confirmed=yes&lt;br&gt;code=9 digit code" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-890" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-29" target="Ku4nTDtjbL8bSQjuvAMc-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="-112.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-29" value="design a workflow that goes through all users where Statuses contains beta-signup and Statuses doesn&#39;t contain &quot;invited&quot; or &quot;terms&quot;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="540" y="-260" width="230" height="145" as="geometry" />
+          <mxGeometry x="508.75" y="-185" width="230" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-30" value="go through everyone that has been welcomed and add is_email_confirmed=yes, and create a 9 digit magic code to help them log-in in the future" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-30" value="go through everyone that has been welcomed and add is_email_confirmed=yes, and create a 9 digit magic code to help them log-in in the future, and add &quot;password-set&quot; to statuses" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="540" y="-1070" width="242.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ku4nTDtjbL8bSQjuvAMc-31" value="go through everyone in airtable and invite them to signup and create an account/join an group." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="537.5" y="-960" width="242.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-33" value="go to group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="613.75" y="-530" width="82.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-36" target="Ku4nTDtjbL8bSQjuvAMc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-42" value="&quot;joined&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-40">
+          <mxGeometry x="0.1023" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-36" value="Log in" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-39" value="go to group" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-45" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-46" target="Ku4nTDtjbL8bSQjuvAMc-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-46" target="Ku4nTDtjbL8bSQjuvAMc-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-64" value="expires (after 24 hours)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-60">
+          <mxGeometry x="0.4381" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-46" value="click magic link in email" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-172.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-48" target="HXzdCxORST3lZqe2nysO-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="340" />
+              <mxPoint x="387" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-71" value="on load, add i&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;s_email_confirmed=yes&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-70">
+          <mxGeometry x="0.6537" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-48" value="log in and go to onboarding" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="-182.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-57" value="expires after 24 hours" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-56" target="Ku4nTDtjbL8bSQjuvAMc-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-56" value="send emails to all users" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-150" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-61" target="Ku4nTDtjbL8bSQjuvAMc-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-61" value="send to a expiration page" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-62" target="Ku4nTDtjbL8bSQjuvAMc-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-62" target="Ku4nTDtjbL8bSQjuvAMc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-68" value="if it doesn&#39;t send again...." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-67">
+          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-62" value="second email sent" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-375" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-66" target="Ku4nTDtjbL8bSQjuvAMc-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-66" value="click button to resend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="-515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="862.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-73" target="Ku4nTDtjbL8bSQjuvAMc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-77" value="add &quot;uses-magic-link&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="Ku4nTDtjbL8bSQjuvAMc-76">
+          <mxGeometry x="-0.3904" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-73" value="use magic link" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="Ku4nTDtjbL8bSQjuvAMc-79" target="HXzdCxORST3lZqe2nysO-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku4nTDtjbL8bSQjuvAMc-79" value="could send another email to reset password and then&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="350" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
